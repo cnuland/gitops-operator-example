@@ -2,7 +2,7 @@ apiVersion: gitops.systems/v1alpha1
 kind: GitOpsConfig
 metadata:
   name: simple-test
-  namespace: test-gitops-operator
+  namespace: gitops-operator
 spec:
   # Add fields here
   templateSource:
