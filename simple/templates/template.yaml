@@ -4,15 +4,15 @@ metadata:
   labels:
     app: hello-openshift
   name: hello-openshift
-  namespace: gitops-operator
+  namespace: test-gitops-operator
 objects:
 - apiVersion: v1
   kind: Pod
   metadata:
     name: hello-openshift
   spec:
-    serviceAccount: gitops
-    serviceAccountName: gitops
+    serviceAccount: gitops-operator
+    serviceAccountName: gitops-operator
     containers:
     - image: openshift/hello-openshift:latest
       imagePullPolicy: Always
