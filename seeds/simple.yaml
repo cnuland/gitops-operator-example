@@ -8,7 +8,9 @@ spec:
   templateSource:
     uri: https://github.com/cnuland/gitops-operator-example
     ref: master
-    contextDir: templates
+    contextDir: simple/templates
+  parameterSource:
+    contextDir: simple/parameters
   triggers:
   - type: Change
   - type: Webhook
