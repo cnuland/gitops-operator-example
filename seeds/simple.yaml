@@ -2,6 +2,7 @@ apiVersion: gitops.systems/v1alpha1
 kind: GitOpsConfig
 metadata:
   name: simple-test
+  namespace: test-gitops-operator
 spec:
   # Add fields here
   templateSource:
@@ -15,6 +16,6 @@ spec:
   - type: Periodic
     cron: "0 * * * *"
   serviceAccountRef: gitops
-  templateProcessorImage: quay.io/cnuland/kube-gitops-base:v0.0.1
+  templateProcessorImage: quay.io/cnuland/kube-gitops-ocp-templates:v0.0.1
   resourceHandlingMode: CreateOrMerge
   resourceDeletionMode: Delete                     
