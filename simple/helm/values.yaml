@@ -5,7 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: openshift/hello-openshift
+  repository: hub.docker.com/r/openshift/hello-openshift
+  tag: v3.9.0
   pullPolicy: IfNotPresent
 
 nameOverride: ""

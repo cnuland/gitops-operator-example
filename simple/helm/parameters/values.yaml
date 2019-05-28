@@ -1,3 +1,3 @@
 image:
-    repository: openshift/hello-openshift:latest
-    tag: v.0.1.0
+    repository: hub.docker.com/r/openshift/hello-openshift
+    tag: v3.9.0
