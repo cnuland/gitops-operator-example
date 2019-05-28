@@ -1,3 +1,3 @@
 image:
-    repository: hub.docker.com/r/openshift/hello-openshift
-    tag: v3.9.0
+    repository: quay.io/cnuland/hello-openshift
+    tag: latest
