@@ -6,7 +6,6 @@ replicaCount: 1
 
 image:
   repository: openshift/hello-openshift
-  tag: latest
   pullPolicy: IfNotPresent
 
 nameOverride: ""
