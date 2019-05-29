@@ -1,3 +1,2 @@
 image:
-    repository: quay.io/cnuland/hello-openshift
-    tag: v0.1.0
+    repository: quay.io/cnuland/hello-openshift:v0.1.0
