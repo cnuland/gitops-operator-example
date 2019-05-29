@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  imageRegistry: quay.io/cnuland/hello-openshift
-  dockerTag: v0.1.0
+  repository: quay.io/cnuland/hello-openshift
+  tag: v0.1.0
   pullPolicy: IfNotPresent
 
 nameOverride: ""
