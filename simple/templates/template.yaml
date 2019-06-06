@@ -14,7 +14,7 @@ objects:
     serviceAccount: eunomia-operator
     serviceAccountName: eunomia-operator
     containers:
-    - image: helloworld:latest
+    - image: hellow-orld:latest
       imagePullPolicy: Always
       name: helloworld
       ports:

@@ -1,4 +1,4 @@
 image:
-  repository: helloworld
+  repository: hello-world
   tag: latest
   pullPolicy: IfNotPresent
