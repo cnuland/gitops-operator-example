@@ -2,7 +2,7 @@ apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: {{ .Chart.Name }}
-  namespace: {{ .Chart.Namespace }}
+  namespace: {{ .Values.namespace }}
   labels:
 {{ include "helm.labels" . | indent 4 }}
 spec:
